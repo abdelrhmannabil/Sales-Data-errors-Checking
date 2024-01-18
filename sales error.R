@@ -195,9 +195,6 @@ write.xlsx(list_of_lists, paste(sales_DB[2,5],".xlsx")) #naming the file of empl
 
 }
 
-emp_links <- emp_links[-1:-7,]
-emp_links <- emp_links[-1:-19,]
-emp_links <- emp_links[-1:-3,]
-emp_links <- emp_links[-1:-21,]
+
 map(emp_links$Link, report_me)
 
